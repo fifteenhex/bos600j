@@ -142,6 +142,8 @@ typedef struct {
 #define BANDEOFFSET 16
 #define BANDFOFFSET 24
 
+// usable channels according to:
+// http://sky.geocities.jp/oumeastro/amaradio.html
 static const vtxchannel channels[] = {
 	{ .number = 4 }, // 5785mhz
 	{ .number = 6 }, // 5745mhz
